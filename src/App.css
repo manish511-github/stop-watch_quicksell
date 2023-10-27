@@ -1,10 +1,8 @@
-/* Reset default margin and padding for all elements */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* Styling for the stopwatch container */
 .stopwatch {
   background-color: rgb(47, 45, 45);
   text-align: center;
@@ -13,28 +11,25 @@
   padding: 50px 50px 45px 55px;
 }
 
-/* Styling for the first button */
 .button1 {
   background-color: rgb(63, 170, 219);
   color: black;
   font-size: 25px;
   margin: 5px;
+  text-transform: uppercase;
   padding: 10px 24px;
   border: none;
 }
 
-/* Styling for the timer text */
 .timer {
   font-size: 45px;
   color: white;
 }
 
-/* Margin for the button container */
 .btn {
   margin-top: 70px;
 }
 
-/* Define a keyframe animation called 'blink' */
 @keyframes blink {
   0% {
     opacity: 1;
@@ -47,24 +42,20 @@
   }
 }
 
-/* Apply the 'blink' animation to elements with the class 'blinking' */
 .blinking {
   animation: blink 1s infinite;
 }
 
-/* Styling for the body, which is the background */
 body {
   background-color: black;
 }
 
-/* Styling for the second button */
 .button2 {
   font-size: 25px;
   margin: 5px;
   padding: 10px 24px;
 }
 
-/* Styling for horizontal rule */
 hr {
   width: 100%;
 }
