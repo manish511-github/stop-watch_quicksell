@@ -14,8 +14,10 @@
 .button1 {
   background-color: rgb(63, 170, 219);
   color: black;
-  font-size: 25px;
+  
+  font-size: 20px;
   margin: 5px;
+
   text-transform: uppercase;
   padding: 10px 24px;
   border: none;

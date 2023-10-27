@@ -31,11 +31,11 @@ const App = () => {
       timer = setInterval(() => {
         setTime((prevTime) => {
           if (prevTime === Math.floor(itt/ 2)) {
-            // Set the timer color to orange at 50%
+            
             document.querySelector('.timer').style.color = 'orange';
           }
           if (prevTime === 10) {
-            // Set the timer color to red at 10 seconds
+        
             document.querySelector('.timer').style.color = 'red';
           }
           if (prevTime === 0) {
