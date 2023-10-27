@@ -1,38 +1,55 @@
-.App {
+.stopwatch {
+  background-color: grey;
   text-align: center;
+  margin:250px;
+  width:50%;
+  
+  padding :50px 50px 45px 55px;
+
+}
+.button1 {background-color: rgb(63, 170, 219);
+color:black;
+font-size: 25px;
+margin:5px;
+padding: 10px 24px;
+border: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.timer{
+  font-size: 45px;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.btn{
+  margin-top: 70px;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.blinking {
+  animation: blink 1s infinite;
+}
+body{
+  background-color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.button2{
+  font-size: 25px;
+margin:5px;
+padding: 10px 24px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.timer{
+  color:white;
+}
+hr{
+  width:100%;
 }
